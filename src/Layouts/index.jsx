@@ -4,7 +4,7 @@ import Footer from "../Components/footer";
 export default function Index(props) {
     return (
         <>
-            <Header/>
+            {/* <Header/> */}
              {props.children}
             <Footer/>
         </>

@@ -9,7 +9,7 @@ import BlogDetails from "./Pages/blog_details";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./scss/common.scss";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route
 } from "react-router-dom";
 function App() {

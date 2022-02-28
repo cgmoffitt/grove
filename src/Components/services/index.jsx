@@ -14,27 +14,27 @@ export default function Index() {
             </div>
             <div className="container">
                 <SectionTitle
-                    title="Our Service"
-                    description="When unknow printer took a gallery of type and scramblted it to makea type specimen book"
+                    title="What is Grove?"
+                    description="Our mission is to give post-grads the tools to turn new connections into deeper friendships as they navigate their post-college communities."
                 />
                 <div className="row">
                     <ServiceItem 
                       icon={serviceIcon_01}
-                      title="Web Solution"
+                      title="Deepen Friendships"
                       url="#"
                       description="Aliquam sollicitudin consequat commodo. Cras bibendum ipsum eu
                         augue egestas laciniaam eu ornare ipsum, quis tristique ligula."
                     />
                     <ServiceItem
                         icon={serviceIcon_02}
-                        title="Strategy & Research"
+                        title="Receive Automatically Suggested Hangouts"
                         url="#"
                         description="Aliquam sollicitudin consequat commodo. Cras bibendum ipsum eu
                         augue egestas laciniaam eu ornare ipsum, quis tristique ligula."
                     />
                     <ServiceItem
                         icon={serviceIcon_03}
-                        title="Web Development"
+                        title="Send Hangout Ideas to your Friends"
                         url="#"
                         description="Aliquam sollicitudin consequat commodo. Cras bibendum ipsum eu
                         augue egestas laciniaam eu ornare ipsum, quis tristique ligula."

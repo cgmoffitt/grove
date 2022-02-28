@@ -147,17 +147,17 @@
 	.deneb_content_box{
 		h2{
 			position: relative;
-			&:after{
-			    position: absolute;
-			    content: '';
-			    left: -30px;
-			    top: -20px;
-			    background: url(../../images/shape/title.png) no-repeat;
-			    display: inline-block;
-			    width: 96px;
-			    height: 67px;
-			    z-index: -1;
-			}
+			// &:after{
+			//     position: absolute;
+			//     content: '';
+			//     left: -30px;
+			//     top: -20px;
+			//     background: url(../../images/shape/title.png) no-repeat;
+			//     display: inline-block;
+			//     width: 96px;
+			//     height: 67px;
+			//     z-index: -1;
+			// }
 		}
 	}
 }

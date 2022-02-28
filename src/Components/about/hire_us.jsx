@@ -9,13 +9,13 @@ export default function HireUs() {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-5">
-                        <div className="deneb_img_box">
+                        {/* <div className="deneb_img_box">
                             <img src={aboutImg} className="img-fluid" alt="about"/>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="col-lg-7">
                         <div className="deneb_content_box">
-                            <h2>Why You Hire Us?</h2>
+                            <h2>Concept Video</h2>
                             <p>Proin ipsum arcu, lobortis id ullamcorper nec, vehicula eget magna. Sed ut malesuada magna, eget lacinia sapien. Nam molestie non ex sit amet ornare. Nunc in pellentesque ipsum, vel vulputate sapien.</p>
                             <p>
                                 Suspendisse potenti. Aliquam elementum felis purus, quis vulputate libero semper nec. Morbi tincidunt maximus nisl vel placerat. Curabitur at ligula ac diam elementum hendrerit. Suspendisse nec metus eu est laoreet

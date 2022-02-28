@@ -1,16 +1,10 @@
 import React from 'react';
 import shape_img_12 from "../../images/shape/shape_12.png";
 import shape_img_13 from "../../images/shape/shape_13.png";
-import people_img_01 from "../../images/1.png";
-import people_img_02 from "../../images/2.png";
-import people_img_03 from "../../images/3.png";
-import people_img_04 from "../../images/4.png";
-import people_img_05 from "../../images/5.png";
-import people_img_06 from "../../images/6.png";
-import people_img_07 from "../../images/7.png";
-import testimonial_img_01 from "../../images/testimonial_1.jpg";
-import testimonial_img_02 from "../../images/testimonial_2.jpg";
-import testimonial_img_03 from "../../images/testimonial_3.jpg";
+import chris_photo from "../../images/grove/photo_chris.JPG"
+import jasmine_photo from "../../images/grove/photo_jasmine.jpeg"
+import amelia_photo from "../../images/grove/photo_amelia.jpeg"
+import tiff_photo from "../../images/grove/photo_tiff.jpeg"
 import "slick-carousel/slick/slick.css";
 import "./testimonials.scss";
 import SectionTitle from "../section_title";
@@ -34,10 +28,10 @@ export default function Index() {
             </div>
             <div className="container">
                 <SectionTitle
-                    title="What People Say"
-                    description="When unknow printer took a gallery of type and scramblted it to make a type specimen book"
+                    title="Team"
+                    description=""
                 />
-                <div className="row1">
+                {/* <div className="row1">
                     <div className="single_img">
                         <img src={people_img_01} className="img-fluid" alt="people" />
                     </div>
@@ -47,8 +41,8 @@ export default function Index() {
                     <div className="single_img sm_img">
                         <img src={people_img_03} className="img-fluid" alt="prople" />
                     </div>
-                </div>
-                <div className="row2">
+                </div> */}
+                {/* <div className="row2">
                     <div className="single_img">
                         <img src={people_img_04} className="img-fluid" alt="prople" />
                     </div>
@@ -61,13 +55,43 @@ export default function Index() {
                     <div className="single_img">
                         <img src={people_img_07} className="img-fluid" alt="people" />
                     </div>
-                </div>
-                <div className="testimonial_slide carousel-style">
-                    <Slider {...settings}> 
+                </div> */}
+                <div className="testimonial_slide">
+                    <div className="row1">
+                    <TestimonialItem
+                            img={chris_photo}
+                            name="Chris Moffitt"
+                            designation="Full Stack Developer"
+                            text=""
+
+                        />
+                    <TestimonialItem
+                            img={tiff_photo}
+                            name="Tiffany Liu"
+                            designation="UX Designer"
+                            text=""
+
+                        />
+                    <TestimonialItem
+                            img={amelia_photo}
+                            name="Amelia Woodward"
+                            designation="Product Engineer"
+                            text=""
+
+                        />
+                    <TestimonialItem
+                            img={jasmine_photo}
+                            name="Jasmine Rodriguez"
+                            designation="Visual Designer"
+                            text=""
+
+                        />
+                    </div>
+                    {/* <Slider {...settings}> 
                         <TestimonialItem
                             img={testimonial_img_01}
-                            name="John Doe"
-                            designation="Freelancer UX Designer"
+                            name="Chris Moffitt"
+                            designation="Full Stack Developer"
                             text="Donec condimentum vehicula iaculis. Maecenas in aliquet neque.
                                 Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi
                                 molestie ligula, vitae convallis orci justo vitae sem. Integer vitae
@@ -78,8 +102,8 @@ export default function Index() {
                         />
                         <TestimonialItem
                             img={testimonial_img_02}
-                            name="Jake Johnson"
-                            designation="Web Developer"
+                            name="Tiffany Liu"
+                            designation="UX Designer"
                             text="Donec condimentum vehicula iaculis. Maecenas in aliquet neque.
                                 Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi
                                 molestie ligula, vitae convallis orci justo vitae sem. Integer vitae
@@ -90,8 +114,8 @@ export default function Index() {
                         />
                         <TestimonialItem
                             img={testimonial_img_03}
-                            name="Celesto Anderson"
-                            designation="Graphic Designer"
+                            name="Amelia Woodward"
+                            designation="Product Engineer"
                             text="Donec condimentum vehicula iaculis. Maecenas in aliquet neque.
                                 Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi
                                 molestie ligula, vitae convallis orci justo vitae sem. Integer vitae
@@ -100,7 +124,19 @@ export default function Index() {
                                 ultricies velit eget sem tempus egestas"
 
                         />
-                    </Slider>
+                        <TestimonialItem
+                            img={testimonial_img_03}
+                            name="Jasmine Rodriguez"
+                            designation="Visual Designer"
+                            text="Donec condimentum vehicula iaculis. Maecenas in aliquet neque.
+                                Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi
+                                molestie ligula, vitae convallis orci justo vitae sem. Integer vitae
+                                imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor
+                                convallis cursus. Duis tempus dolor eget gravida fringilla. In
+                                ultricies velit eget sem tempus egestas"
+
+                        />
+                    </Slider> */}
                 </div>
             </div>
         </section>

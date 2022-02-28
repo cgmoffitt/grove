@@ -88,6 +88,9 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 }
+.bg_green{
+	background-color: #89C65A; 
+}
 .section_padding{
 	padding: 100px 0;
 }
@@ -130,7 +133,7 @@ input.form_control{
 @media #{$xs}{
 	.deneb_img{
 		img{
-			width: 100%;
+			// width: 100%;
 		}
 	}
 }

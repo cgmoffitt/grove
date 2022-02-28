@@ -20,26 +20,26 @@ export default function Index() {
                 <div className="site_menu">
                     <div className="row align-items-center">
                         <div className="col-lg-2">
-                            <div className="brand">
+                            {/* <div className="brand">
                                 <Link className="logo" to="/"><img src={siteLogo} className="img-fluid" alt="logo" /></Link>
-                            </div>
+                            </div> */}
                             </div>
                             <div className="col-lg-10">
                                 <div className="primary_menu" id="menu">
                                     <nav className="main_menu">
                                         <ul>
                                             <li className="menu-item"><NavLink exact={true} activeClassName="active_link" to="/">Home</NavLink></li>
-                                            <li className="menu-item"><NavLink exact={true} activeClassName="active_link" to="/about">About Us</NavLink></li>
-                                            <li className="menu-item"><NavLink exact={true} activeClassName="active_link" to="/services">Services</NavLink></li>
-                                            <li className="menu-item"><NavLink exact={true} activeClassName="active_link" to="/portfolios">Portfolio</NavLink></li>
-                                            <li className="menu-item"><a href="#">Blog</a>
-                                                <ul className="sub-menu">
+                                            <li className="menu-item"><NavLink exact={true} activeClassName="active_link" to="/about">About</NavLink></li>
+                                            <li className="menu-item"><NavLink exact={true} activeClassName="active_link" to="/services">Concept Video</NavLink></li>
+                                            <li className="menu-item"><NavLink exact={true} activeClassName="active_link" to="/portfolios">Our Work</NavLink></li>
+                                            <li className="menu-item"><a href="#">Team</a>
+                                                {/* <ul className="sub-menu">
                                                     <li className="menu-item"><NavLink exact to="/blog">Blog</NavLink></li>
                                                     <li className="menu-item"><Link to="/blog_details/1">Blog Details</Link></li>
-                                                </ul>
+                                                </ul> */}
                                             </li>
-                                            <li className="menu-item"><NavLink exact={true} activeClassName="active_link" to="/contact">Contact Us</NavLink></li>
-                                            <li className="menu-item"><Link className="deneb_btn" to="/contact">Hire Us</Link></li>
+                                            {/* <li className="menu-item"><NavLink exact={true} activeClassName="active_link" to="/contact">Contact Us</NavLink></li> */}
+                                            <li className="menu-item"><Link className="deneb_btn" to="/contact">See Demo</Link></li>
                                         </ul>
                                     </nav>
                                 </div>

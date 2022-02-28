@@ -12,7 +12,7 @@ export default function testimonial_item(props) {
                 </div>
             </div>
             <div className="client_info">
-                <h3>{name}</h3>
+                <h4>{name}</h4>
                 <h5>{designation}</h5>
                 <p>{text}</p>
             </div>

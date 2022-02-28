@@ -16,12 +16,12 @@ export default function Home() {
             <HeroArea/>
             <Services/>
             <About/>
-            <ProjectsInfo/>
+            {/* <ProjectsInfo/> */}
             <Portfolios/>
-            <Pricing/>
+            {/* <Pricing/> */}
             <Testimonials/>
-            <Blogs/>
-            <Contact/>
+            {/* <Blogs/>
+            <Contact/> */}
       </Layout>
     )
 }
