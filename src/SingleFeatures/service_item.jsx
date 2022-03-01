@@ -13,7 +13,7 @@ export default function ServiceItem(props) {
                 </div>
                 : null }
                   <div className="info">
-                  <h4><a href={url}>{title}</a></h4>
+                  <h4>{title}</h4>
                   <p>{description}</p>
                  {/*} <a href={url} className="link_btn"> <i><FaPlay/></i> Read More </a> */}
                 </div>
