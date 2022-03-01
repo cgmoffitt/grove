@@ -63,28 +63,28 @@ export default function Index() {
                     <div className="row1">
                     <TestimonialItem
                             img={chris_photo}
-                            name="Chris Moffitt"
+                            name="Chris M"
                             designation="Full Stack Developer"
                             text=""
 
                         />
                     <TestimonialItem
                             img={tiff_photo}
-                            name="Tiffany Liu"
+                            name="Tiffany L"
                             designation="UX Designer"
                             text=""
 
                         />
                     <TestimonialItem
                             img={amelia_photo}
-                            name="Amelia Woodward"
+                            name="Amelia W"
                             designation="Product Engineer"
                             text=""
 
                         />
                     <TestimonialItem
                             img={jasmine_photo}
-                            name="Jasmine Rodriguez"
+                            name="Jasmine R"
                             designation="Visual Designer"
                             text=""
                         />

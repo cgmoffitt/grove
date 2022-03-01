@@ -7,8 +7,8 @@ export default function SliderItem(props) {
         <div className="signle_slider">
             <div className="row align-items-center">
                 <div className="col-lg-5">
-                    <div className="banner_content wow fadeInLeft">
-                        <h1>{title}<br /><span>{sub_title}</span></h1>
+                    <div className="banner_content wow fadeInLeft" >
+                        <h1  style={{zIndex:5}}>{title} <br /><span>{sub_title}</span></h1>
                         <h5>{heading}</h5>
                         <p>{description}</p>
                         <a href={url} target='_blank' rel='noopener noreferrer' className="deneb_btn">See Demo</a>

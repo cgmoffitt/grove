@@ -2,9 +2,9 @@ import React from 'react';
 import "./services.scss";
 import ServiceItem from "../../SingleFeatures/service_item";
 import SectionTitle from "../section_title";
-import serviceIcon_01 from "../../images/icon_1.png";
-import serviceIcon_02 from "../../images/icon_2.png";
-import serviceIcon_03 from "../../images/icon_3.png";
+import serviceIcon_01 from "../../images/grove/deepen-friendships.png";
+import serviceIcon_02 from "../../images/grove/hangout-stress-free.png";
+import serviceIcon_03 from "../../images/grove/make-lasting-memories.png";
 
 export default function Index() {
     return (
@@ -15,29 +15,29 @@ export default function Index() {
             <div className="container">
                 <SectionTitle
                     title="What is Grove?"
-                    description="Our mission is to give post-grads the tools to turn new connections into deeper friendships as they navigate their post-college communities."
+                    description="Meeting a bunch of new people post-grad but missing the depth of your college friendships? We created Grove to help turn your new connections into meaningful friendships.
+"
                 />
                 <div className="row">
                     <ServiceItem 
                       icon={serviceIcon_01}
-                      title="Deepen Friendships"
+                      title="Deepen 1:1 Friendships"
                       url="#"
-                      description="Aliquam sollicitudin consequat commodo. Cras bibendum ipsum eu
-                        augue egestas laciniaam eu ornare ipsum, quis tristique ligula."
+                      description="We automatically generate hangouts for you and new friends you want to get to know better"
+
                     />
                     <ServiceItem
                         icon={serviceIcon_02}
-                        title="Receive Automatically Suggested Hangouts"
+                        title="Hangout Stress-Free"
                         url="#"
-                        description="Aliquam sollicitudin consequat commodo. Cras bibendum ipsum eu
-                        augue egestas laciniaam eu ornare ipsum, quis tristique ligula."
+                        description="We do all the planning to save you the stress of initiating hangouts with new friends
+"
                     />
                     <ServiceItem
                         icon={serviceIcon_03}
-                        title="Send Hangout Ideas to your Friends"
+                        title="Make Lasting Memories"
                         url="#"
-                        description="Aliquam sollicitudin consequat commodo. Cras bibendum ipsum eu
-                        augue egestas laciniaam eu ornare ipsum, quis tristique ligula."
+                        description="We compile moments from your hangouts so you can see your friendships grow over time"
                     />
                 </div>
             </div>

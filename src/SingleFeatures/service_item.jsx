@@ -9,13 +9,13 @@ export default function ServiceItem(props) {
             <div className="grid_item wow fadeInUp" style={{backgroundColor: "white"}}>
                 {icon ? 
                 <div className="icon">
-                    <img src={icon} className="img-fluid" alt="service" />
+                    <img src={icon} className="img-fluid" alt="service"  style={{width:100}}/>
                 </div>
                 : null }
                   <div className="info">
                   <h4><a href={url}>{title}</a></h4>
                   <p>{description}</p>
-                  <a href={url} className="link_btn"> <i><FaPlay/></i> Read More </a>
+                 {/*} <a href={url} className="link_btn"> <i><FaPlay/></i> Read More </a> */}
                 </div>
             </div>
         </div>

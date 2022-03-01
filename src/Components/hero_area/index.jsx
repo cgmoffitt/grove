@@ -23,11 +23,11 @@ export default function Index() {
     return (
         <section className="deneb_banner carousel-style banner_v1">
             <div className="shape_v1" >
-                <img style={{zIndex:-1}} src={shapeImg} className="shape_1" alt="shape" />
+                <img style={{zIndex:-1, position: "fixed"}} src={shapeImg} className="shape_1" alt="shape" />
             </div>
-            <div className="container">
+            <div className="container" >
                 <div className="hero_slider">
-                <SliderItem
+                <SliderItem 
                             // title="We are "
                             sub_title="grove"
                             heading="Cultivate your post-grad community"

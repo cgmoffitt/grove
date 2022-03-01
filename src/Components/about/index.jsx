@@ -23,10 +23,10 @@ export default function Index() {
                     <div className="col-lg-6">
                         <div className="deneb_content_box wow fadeInRight">
                             <h2>Concept Video</h2>
-                            <p>Proin ipsum arcu, lobortis id ullamcorper nec, vehicula eget magna. Sed ut malesuada magna, eget lacinia sapien. Nam molestie non ex sit amet ornare. Nunc in pellentesque ipsum, vel vulputate sapien.</p>
+                            <p>We're proud to have won Best Project Concept after demo-ing this video in CS147!</p>
                             {/* <p>Suspendisse potenti. Aliquam elementum felis purus, quis vulputate libero semper nec. Morbi tincidunt maximus nisl vel placerat. Curabitur at ligula ac diam elementum hendrerit. Suspendisse nec metus eu est laoreet hendrerit vitae non ipsum. Nam faucibus elementum arcu, eget eleifend tortor.</p> */}
                             
-                            <a href="https://www.youtube.com/watch?v=crWdyARTgmo&feature=emb_title" target='_blank' rel='noopener noreferrer' className="deneb_btn">Watch</a>
+                            <a href="https://www.youtube.com/watch?v=crWdyARTgmo&feature=emb_title" target='_blank' style={{width: 200}} rel='noopener noreferrer' className="deneb_btn">Watch on YouTube</a>
                         </div>
                     </div>
                 </div>
