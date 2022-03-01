@@ -21,6 +21,14 @@ import LoFiPDF from "../../assets/Assignment 5_ Low-fi Prototyping.pdf"
 import LoFiReportPDF from "../../assets/Low-Fi Prototyping Report.pdf"
 import MediumFiSlidesPDF from "../../assets/Assignment 6_ Medium-fi Prototype.pdf"
 import MediumFiReadMe from "../../assets/Grove_ Medium-fi Prototype README.pdf"
+
+import NeedfindingPPT from "../../assets/Assignment 1_ Needfinding Presentation.pptx"
+import IdeatePPT from "../../assets/Assignment 2_ Ideate Presentation.pptx"
+import ConceptVideoPPT from "../../assets/Assignment 4_ Concept Video Presentation.pptx"
+import LoFiPPT from "../../assets/Assignment 5_ Low-fi Prototyping & Testing.pptx"
+import MediumFiPPT from "../../assets/Assignment 6_ Medium-fi Prototype.pptx"
+
+
 import PortfolioItem from "../../SingleFeatures/portfolio_item";
 import SectionTitle from "../section_title";
 export default function Index() {
@@ -75,6 +83,7 @@ export default function Index() {
                                             title="Needfinding"
                                             tag="Discerning our problem"
                                             pdf={NeedfindingPDF}
+                                            ppt={NeedfindingPPT}
                                         />
                                     </div>
                                     <div className="col-lg-4 col-md-6">
@@ -83,6 +92,7 @@ export default function Index() {
                                             title="Experience Prototype"
                                             tag="Testing our solution assumptions"
                                             pdf={IdeatePDF}
+                                            ppt={IdeatePPT}
                                         />
                                     </div>
                                     <div className="col-lg-4 col-md-6">
@@ -91,6 +101,7 @@ export default function Index() {
                                             title="Concept Video"
                                             tag="Giving life to our idea"
                                             pdf={ConceptVideoPDF}
+                                            ppt={ConceptVideoPPT}
                                         />
                                     </div>
                                     <div className="col-lg-4 col-md-6">
@@ -100,6 +111,7 @@ export default function Index() {
                                             tag="Testing initial designs"
                                             pdf={LoFiPDF}
                                             writtenReport={LoFiReportPDF}
+                                            ppt={LoFiPPT}
                                         />
                                     </div>
                                     <div className="col-lg-4 col-md-6">
@@ -110,6 +122,7 @@ export default function Index() {
                                             writtenReport={MediumFiReadMe}
                                             prototype={"https://www.figma.com/proto/hj37Hp9a3N7DWExdNbAEIv/Grove-Me dium-Fi-Prototype?node-id=173%3A347&scaling=scale-down&page-id =0%3A3&starting-point-node-id=173%3A347"}
                                             tag="Visualizing our app"
+                                            ppt={MediumFiPPT}
                                         />
                                     </div>
                                     <div className="col-lg-4 col-md-6">

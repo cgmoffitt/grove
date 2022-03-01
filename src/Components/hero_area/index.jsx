@@ -8,6 +8,7 @@ import SliderItem from "../../SingleFeatures/slider_item";
 import slider_01_img from "../../images/banner_1.png";
 import slider_02_img from "../../images/banner_02.png";
 import slider_03_img from "../../images/banner_03.png";
+import mockup from "../../images/grove/grove_mockup.jpeg"
 
 export default function Index() {
     const settings = {
@@ -33,7 +34,7 @@ export default function Index() {
                             heading="Cultivate your post-grad community"
                             description=""
                             url={"https://www.figma.com/proto/hj37Hp9a3N7DWExdNbAEIv/Grove-Me dium-Fi-Prototype?node-id=173%3A347&scaling=scale-down&page-id =0%3A3&starting-point-node-id=173%3A347"}
-                            img={slider_01_img}
+                            img={mockup}
                         />
                    {/* <Slider {...settings}> 
                         
