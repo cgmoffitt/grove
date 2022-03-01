@@ -9,8 +9,8 @@ import serviceIcon_03 from "../../images/icon_3.png";
 export default function Index() {
     return (
         <section className="deneb_service service_v1">
-            <div className="shape_v2">
-                <img src="assets/images/shape/shape_7.png" className="shape_7" alt="" />
+            <div className="shape_v2" >
+                <img style={{zIndex:-1}} src="assets/images/shape/shape_7.png" className="shape_7" alt="" />
             </div>
             <div className="container">
                 <SectionTitle

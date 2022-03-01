@@ -14,7 +14,7 @@ import {
 } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor: "#F4F3E7"}}>
       <Router>
         <Route exact path="/">
            <Home />

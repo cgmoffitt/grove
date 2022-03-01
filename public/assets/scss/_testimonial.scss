@@ -31,7 +31,7 @@
 		.single_img{
 			border-radius: 50%;
 			opacity: .7;
-			box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.3);
+			box-shadow: 2.5px 4.33px 15px 0px 00463C;
 			img{
 				border-radius: 50%;
 				opacity: .7;
@@ -67,9 +67,9 @@
 					top: -10px;
 					right: -10px;
 					border-radius: 50%;
-					background-image: -moz-linear-gradient( 180deg, rgb(254,176,0) 0%, rgb(255,188,38) 100%);
-					background-image: -webkit-linear-gradient( 180deg, rgb(254,176,0) 0%, rgb(255,188,38) 100%);
-					background-image: -ms-linear-gradient( 180deg, rgb(254,176,0) 0%, rgb(255,188,38) 100%);
+					background-image: -moz-linear-gradient( 180deg, 00463C 0%, 00463C 100%);
+					background-image: -webkit-linear-gradient( 180deg, 00463C 0%, 00463C 100%);
+					background-image: -ms-linear-gradient( 180deg, 00463C 0%, 00463C 100%);
 					z-index: -1;
 				}
 				img{
@@ -90,7 +90,7 @@
 					border-radius: 50%;
 					color: $white;
 					font-size: 18px;
-					background-image: -moz-linear-gradient( 180deg, rgb(254,176,0) 0%, rgb(255,188,38) 100%);
+					background-image: -moz-linear-gradient( 180deg, #00463C 0%, rgb(255,188,38) 100%);
 					background-image: -webkit-linear-gradient( 180deg, rgb(254,176,0) 0%, rgb(255,188,38) 100%);
 					background-image: -ms-linear-gradient( 180deg, rgb(254,176,0) 0%, rgb(255,188,38) 100%);
 				}
@@ -101,7 +101,7 @@
 				}
 				h5{
 					font-size: 18px;
-					color: #ffbb23;
+					color: #00463C;
 					font-weight: 400;
 				}
 				p{

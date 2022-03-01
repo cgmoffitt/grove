@@ -25,7 +25,8 @@ export default function Index() {
                             <h2>Concept Video</h2>
                             <p>Proin ipsum arcu, lobortis id ullamcorper nec, vehicula eget magna. Sed ut malesuada magna, eget lacinia sapien. Nam molestie non ex sit amet ornare. Nunc in pellentesque ipsum, vel vulputate sapien.</p>
                             {/* <p>Suspendisse potenti. Aliquam elementum felis purus, quis vulputate libero semper nec. Morbi tincidunt maximus nisl vel placerat. Curabitur at ligula ac diam elementum hendrerit. Suspendisse nec metus eu est laoreet hendrerit vitae non ipsum. Nam faucibus elementum arcu, eget eleifend tortor.</p> */}
-                            <Link to="/about" onClick={scrollToTop} className="deneb_btn">Download</Link>
+                            
+                            <a href="https://www.youtube.com/watch?v=crWdyARTgmo&feature=emb_title" target='_blank' rel='noopener noreferrer' className="deneb_btn">Watch</a>
                         </div>
                     </div>
                 </div>

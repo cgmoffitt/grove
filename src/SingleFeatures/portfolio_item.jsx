@@ -35,9 +35,9 @@ export default function PortfolioItem(props) {
                         <h4>{title}</h4> 
                         }
                         <p>{tag}</p>
-                        <div className='d-flex justify-content-between'>
+                        <div className='d-flex '>
                             {writtenReport && <a href={writtenReport} target='_blank' rel='noopener noreferrer'>Written Report</a>}
-                            {prototype && <a href={prototype} target='_blank' rel='noopener noreferrer'>Prototype</a>}
+                            {prototype && <a href={prototype} target='_blank' rel='noopener noreferrer'>,  Prototype</a>}
                         </div>
                     </div>
                 </div>

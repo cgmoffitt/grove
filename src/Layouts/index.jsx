@@ -6,7 +6,7 @@ export default function Index(props) {
         <>
             {/* <Header/> */}
              {props.children}
-            <Footer/>
+            {/*<Footer/>*/}
         </>
     )
 }

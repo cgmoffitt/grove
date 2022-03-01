@@ -58,12 +58,12 @@ export default function Index() {
     return (
         <section className="deneb_project project_v1">
             <div className="shape_v3">
-                <img src={shapeImg_01} className="shape_10" alt="shape" />
+                <img style={{zIndex:-1}} src={shapeImg_01} className="shape_10" alt="shape" />
             </div>
             <div className="container mt-5">
                 <SectionTitle
                     title="See our work!"
-                    description="We love CS 147, its the best"
+                    description="Follow our design journey."
                 />
                 <div className="row">
                     <div className="col-md-12 grid_wrapper">

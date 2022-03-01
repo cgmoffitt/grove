@@ -70,10 +70,7 @@
 					top: -10px;
 					right: -10px;
 					border-radius: 50%;
-					background-image: -moz-linear-gradient( 180deg, rgb(137,198,90) 0%, rgb(138,210,128) 100%);
-					background-image: -webkit-linear-gradient( 180deg, rgb(137,198,90) 0%, rgb(138,210,128) 100%);
-                    background-image: -ms-linear-gradient( 180deg, rgb(137,198,90) 0%, rgb(138,210,128) 100%);
-                    background-color: #89C65A;
+					opacity: 1;
 					z-index: -1;
 				}
 				img{

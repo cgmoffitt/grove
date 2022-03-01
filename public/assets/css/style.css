@@ -1169,9 +1169,9 @@ input.form_control {
           top: -10px;
           right: -10px;
           border-radius: 50%;
-          background-image: -moz-linear-gradient(180deg, #89C65A 0%, #ffbc26 100%);
-          background-image: -webkit-linear-gradient(180deg, #89C65A 0%, #ffbc26 100%);
-          background-image: -ms-linear-gradient(180deg, #89C65A 0%, #ffbc26 100%);
+          background-image: -moz-linear-gradient(180deg, #00463C 0%, #00463C 100%);
+          background-image: -webkit-linear-gradient(180deg, #00463C 0%, #00463C 100%);
+          background-image: -ms-linear-gradient(180deg, #00463C 0%, #00463C 100%);
           z-index: -1; }
         .deneb_testimonial .testimonial_slide .single_testimonial .client_img img {
           margin: 0 auto;
@@ -1190,9 +1190,9 @@ input.form_control {
           border-radius: 50%;
           color: #fff;
           font-size: 18px;
-          background-image: -moz-linear-gradient(180deg, #89C65A 0%, #ffbc26 100%);
-          background-image: -webkit-linear-gradient(180deg, #89C65A 0%, #ffbc26 100%);
-          background-image: -ms-linear-gradient(180deg, #89C65A 0%, #ffbc26 100%); }
+          background-image: -moz-linear-gradient(180deg, #00463C 0%, #00463C 100%);
+          background-image: -webkit-linear-gradient(180deg, #00463C 0%, #00463C 100%);
+          background-image: -ms-linear-gradient(180deg, #00463C 0%, #00463C 100%); }
       .deneb_testimonial .testimonial_slide .single_testimonial .client_info h3 {
         font-weight: bold; }
       .deneb_testimonial .testimonial_slide .single_testimonial .client_info h5 {

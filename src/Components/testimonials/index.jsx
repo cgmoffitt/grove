@@ -22,10 +22,12 @@ export default function Index() {
     };
     return (
         <section className="deneb_testimonial testimonial_v1">
+         <div style={{backgroundColor:"white", padding: '10%'}}>
             <div className="shape_v5">
-                <img src={shape_img_12} className="shape_12" alt="shape" />
-                <img src={shape_img_13} className="shape_13" alt="shape" />
+                <img src={shape_img_12} style={{zIndex:-1}} className="shape_12" alt="shape" />
+                <img src={shape_img_13} style={{zIndex:-1}}  className="shape_13" alt="shape" />
             </div>
+           
             <div className="container">
                 <SectionTitle
                     title="Team"
@@ -56,6 +58,7 @@ export default function Index() {
                         <img src={people_img_07} className="img-fluid" alt="people" />
                     </div>
                 </div> */}
+
                 <div className="testimonial_slide">
                     <div className="row1">
                     <TestimonialItem
@@ -84,59 +87,9 @@ export default function Index() {
                             name="Jasmine Rodriguez"
                             designation="Visual Designer"
                             text=""
-
                         />
                     </div>
-                    {/* <Slider {...settings}> 
-                        <TestimonialItem
-                            img={testimonial_img_01}
-                            name="Chris Moffitt"
-                            designation="Full Stack Developer"
-                            text="Donec condimentum vehicula iaculis. Maecenas in aliquet neque.
-                                Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi
-                                molestie ligula, vitae convallis orci justo vitae sem. Integer vitae
-                                imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor
-                                convallis cursus. Duis tempus dolor eget gravida fringilla. In
-                                ultricies velit eget sem tempus egestas"
-
-                        />
-                        <TestimonialItem
-                            img={testimonial_img_02}
-                            name="Tiffany Liu"
-                            designation="UX Designer"
-                            text="Donec condimentum vehicula iaculis. Maecenas in aliquet neque.
-                                Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi
-                                molestie ligula, vitae convallis orci justo vitae sem. Integer vitae
-                                imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor
-                                convallis cursus. Duis tempus dolor eget gravida fringilla. In
-                                ultricies velit eget sem tempus egestas"
-
-                        />
-                        <TestimonialItem
-                            img={testimonial_img_03}
-                            name="Amelia Woodward"
-                            designation="Product Engineer"
-                            text="Donec condimentum vehicula iaculis. Maecenas in aliquet neque.
-                                Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi
-                                molestie ligula, vitae convallis orci justo vitae sem. Integer vitae
-                                imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor
-                                convallis cursus. Duis tempus dolor eget gravida fringilla. In
-                                ultricies velit eget sem tempus egestas"
-
-                        />
-                        <TestimonialItem
-                            img={testimonial_img_03}
-                            name="Jasmine Rodriguez"
-                            designation="Visual Designer"
-                            text="Donec condimentum vehicula iaculis. Maecenas in aliquet neque.
-                                Suspendisse viverra, ante eget pellentesque pulvinar, nunc nisi
-                                molestie ligula, vitae convallis orci justo vitae sem. Integer vitae
-                                imperdiet augue, sed accumsan diam. Etiam non quam commodo dolor
-                                convallis cursus. Duis tempus dolor eget gravida fringilla. In
-                                ultricies velit eget sem tempus egestas"
-
-                        />
-                    </Slider> */}
+                    </div>   
                 </div>
             </div>
         </section>
