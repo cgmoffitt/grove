@@ -35,20 +35,21 @@ h2{
 	font-weight: 700;
 }
 h3{
-	font-size: 30px;
+	font-size: 35px;
 }
 h4{
-	font-size: 22px;
+	font-size: 26px;
 }
 h5{
-	font-size: 20px;
+	font-size: 24px;
 }
 h6{
-	font-size: 16px;
+	font-size: 20px;
 }
 p{
 	margin: 0;
 	padding: 0;
+	font-size: 18px;
 }
 ul{
 	margin: 0;
@@ -111,7 +112,7 @@ body{
 	transition:.5s;
 	&:hover,&:focus{
 		color: $white;
-		box-shadow: 2.5px 4.33px 15px 0px rgba(254, 176, 0, 0.4);
+		box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0);
 	}
 }
 .link_btn{

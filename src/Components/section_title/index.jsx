@@ -8,7 +8,7 @@ export default function Index(props) {
             <div className="col-lg-12">
                 <div className="section_title text-center">
                     <h2>{title}</h2>
-                    <p style={{fontSize: 18, color:"black"}}>{description}</p>
+                    <p style={{fontSize: 20, color:"black"}}>{description}</p>
                 </div>
             </div>
         </div>

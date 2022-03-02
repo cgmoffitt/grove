@@ -5,8 +5,8 @@ export default function ServiceItem(props) {
 
     const { icon, title, url, description } = props;
     return (
-        <div className="col-lg-4 col-md-6 col-sm-12">
-            <div className="grid_item wow fadeInUp" style={{backgroundColor: "white"}}>
+        <div className="col-lg-4 col-md-4 col-sm-12">
+            <div className="grid_item wow fadeInUp" style={{backgroundColor: "white", width:350, height:415}}>
                 {icon ? 
                 <div className="icon">
                     <img src={icon} className="img-fluid" alt="service"  style={{width:100}}/>
