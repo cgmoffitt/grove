@@ -56,6 +56,7 @@ export default function Index() {
                             img={slider_03_img}
                         />
                     </Slider> */}
+                    <br/> <br/> <br /> <br/> <br /> <br/> <hr/><br/>
                 </div>
             </div>
         </section>

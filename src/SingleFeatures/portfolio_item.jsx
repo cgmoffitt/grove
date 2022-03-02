@@ -4,9 +4,9 @@ export default function PortfolioItem(props) {
     const { img, title, url, tag, pdf, ppt, writtenReport, prototype, writtenFeedback } = props;
     return (
         <div className="single_project cat1 cat5">
-            <div className="grid_item" style={{margin:'8%', backgroundColor: "#F4F3E7",  borderStyle:"solid", borderColor:"#00463C"}}>
+            <div className="grid_item" style={{margin:'8%', backgroundColor: "white",  borderStyle:"solid", borderColor:"#00463C"}}>
                 <div className="deneb_img bg_green" 
-                        style={{justifyContent: "center", alignItems: "center", textAlign:"center", backgroundColor:"#F4F3E7"}}>
+                        style={{justifyContent: "center", alignItems: "center", textAlign:"center", backgroundColor:"white"}}>
                     {pdf ?
                         <a href={pdf} target='_blank' rel='noopener noreferrer'>
                             <img
