@@ -9,8 +9,8 @@ export default function SliderItem(props) {
                 <div className="col-lg-5">
                     <div className="banner_content wow fadeInLeft" >
                         <h1  style={{zIndex:5}}>{title} <br /><span>{sub_title}</span></h1>
-                        <h5>{heading}</h5>
-                        <p>{description}</p>
+                        <h5 style={{color:"black"}}>{heading}</h5>
+                        <p style={{color:"black"}}>{description}</p>
                         <a href={url} target='_blank' rel='noopener noreferrer' className="deneb_btn">See Demo</a>
                     </div>
                 </div>

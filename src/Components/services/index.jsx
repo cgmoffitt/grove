@@ -15,7 +15,7 @@ export default function Index() {
             <div className="container">
                 <SectionTitle
                     title="What is grove?"
-                    description="Are you a post-grad meeting a bunch of new people but missing the depth of your college friendships?.
+                    description="Are you a post-grad meeting a bunch of new people but missing the depth of your college friendships?
 "
                 />
                 <div className="row">

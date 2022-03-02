@@ -2,14 +2,14 @@ import React from 'react';
 import "./portfolios.scss";
 import shapeImg_01 from "../../images/shape/shape_10.png";
 import portfolioImg_01 from "../../images/portfolio_1.jpg"
-import grove1 from "../../images/grove/grove_1.png"
-import grove2 from "../../images/grove/grove_2.png"
-import grove3 from "../../images/grove/grove_3.png"
-import grove4 from "../../images/grove/grove_4.png"
-import grove5 from "../../images/grove/grove_5.png"
-import grove6 from "../../images/grove/grove_6.png"
-import grove7 from "../../images/grove/grove_7.png"
-import grove8 from "../../images/grove/grove_8.png"
+import grove1 from "../../images/grove/grove_updated2.png"
+import grove2 from "../../images/grove/grove_updated3.png"
+import grove3 from "../../images/grove/grove_updated4.png"
+import grove4 from "../../images/grove/grove_updated5.png"
+import grove5 from "../../images/grove/grove_updated6.png"
+import grove6 from "../../images/grove/grove_updated7.png"
+import grove7 from "../../images/grove/grove_updated8.png"
+import grove8 from "../../images/grove/grove_updated9.png"
 import { Tabs, Tab } from "react-bootstrap";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -27,7 +27,7 @@ import IdeatePPT from "../../assets/Assignment 2_ Ideate Presentation.pptx"
 import ConceptVideoPPT from "../../assets/Assignment 4_ Concept Video Presentation.pptx"
 import LoFiPPT from "../../assets/Assignment 5_ Low-fi Prototyping & Testing.pptx"
 import MediumFiPPT from "../../assets/Assignment 6_ Medium-fi Prototype.pptx"
-
+import HeuristicEval from "../../assets/Heuristic_Eval.pdf"
 
 import PortfolioItem from "../../SingleFeatures/portfolio_item";
 import SectionTitle from "../section_title";
@@ -90,7 +90,7 @@ export default function Index() {
                                         <PortfolioItem
                                             img={grove2}
                                             title="Experience Prototype"
-                                            tag="Testing our solution assumptions"
+                                            tag="Testing solution assumptions"
                                             pdf={IdeatePDF}
                                             ppt={IdeatePPT}
                                         />
@@ -120,7 +120,7 @@ export default function Index() {
                                             title="Medium-fi Prototype"
                                             pdf={MediumFiSlidesPDF}
                                             writtenReport={MediumFiReadMe}
-                                            prototype={"https://www.figma.com/proto/hj37Hp9a3N7DWExdNbAEIv/Grove-Me dium-Fi-Prototype?node-id=173%3A347&scaling=scale-down&page-id =0%3A3&starting-point-node-id=173%3A347"}
+                                            prototype={"https://www.figma.com/proto/hj37Hp9a3N7DWExdNbAEIv/Grove-Medium-Fi-Prototype?node-id=173%3A347&scaling=scale-down&page-id =0%3A3&starting-point-node-id=173%3A347"}
                                             tag="Visualizing our app"
                                             ppt={MediumFiPPT}
                                         />
@@ -130,6 +130,8 @@ export default function Index() {
                                             img={grove6}
                                             title="Heuristic Evalutation"
                                             tag="Receiving expert feedback"
+                                            pdf={HeuristicEval}
+                                            writtenFeedback={HeuristicEval}
                                         />
                                     </div>
                                     <div className="col-lg-4 col-md-6">
@@ -142,7 +144,7 @@ export default function Index() {
                                     <div className="col-lg-4 col-md-6">
                                         <PortfolioItem
                                             img={grove8}
-                                            title="Poster and Pitch Slide"
+                                            title="Poster and Pitch"
                                             tag="Showing off our creation"
                                         />
                                     </div>

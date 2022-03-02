@@ -14,7 +14,7 @@ export default function ServiceItem(props) {
                 : null }
                   <div className="info">
                   <h4>{title}</h4>
-                  <p>{description}</p>
+                  <p style={{color: "black"}}>{description}</p>
                  {/*} <a href={url} className="link_btn"> <i><FaPlay/></i> Read More </a> */}
                 </div>
             </div>
