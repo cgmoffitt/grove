@@ -8,7 +8,7 @@ import SliderItem from "../../SingleFeatures/slider_item";
 import slider_01_img from "../../images/banner_1.png";
 import slider_02_img from "../../images/banner_02.png";
 import slider_03_img from "../../images/banner_03.png";
-import mockup from "../../images/grove/grove_mockup.jpeg"
+import mockup from "../../images/grove/grove_mockup.png"
 
 export default function Index() {
     const settings = {
