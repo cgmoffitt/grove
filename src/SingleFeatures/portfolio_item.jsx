@@ -33,11 +33,11 @@ export default function PortfolioItem(props) {
                 <div className="deneb_info">
 
                     {pdf ?
-                        <h4><a href={pdf} target='_blank' rel='noopener noreferrer'>{title}</a></h4>
+                        <h4 style={{fontSize:20}}><a href={pdf} target='_blank' rel='noopener noreferrer'>{title}</a></h4>
                         :
-                        <h4>{title}</h4>
+                        <h4 style={{fontSize:20}}>{title}</h4>
                     }
-                    <p style={{color:"black"}}>{tag}</p>
+                    <p style={{color:"black", fontSize: 14}}>{tag}</p>
                     <div className='d-flex '>
                         {ppt && <a href={ppt} target='_blank' download>PPT</a>}
                         {writtenReport && <a href={writtenReport} target='_blank' rel='noopener noreferrer'>, Written Report</a>}
