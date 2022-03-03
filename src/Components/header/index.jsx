@@ -20,8 +20,8 @@ export default function Index() {
                 <div className="site_menu">
                     <div className="row align-items-left">
                         <div className="col-lg-2">
-                            <div className="brand">
-                                <img src={siteLogo} style={{alignItems: "left", paddingTop:'40%'}}className="img-fluid" alt="logo" />
+                            <div >
+                                <img src={siteLogo} style={{alignItems: "left", paddingTop:'30%', width:'200', height:'200', justifyContent:"left"}}className="img-fluid" alt="logo" />
                             </div> 
                             </div>
                             </div> </div> </div>

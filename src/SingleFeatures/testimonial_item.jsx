@@ -10,8 +10,8 @@ export default function testimonial_item(props) {
             </div>
             <div className="client_info">
                 <h4>{name}</h4>
-                <h5 style={{color:"#00463C"}}>{designation}</h5>
-                <p>{text}</p>
+                <h5 style={{color:"black"}}>{designation}</h5>
+                <p style={{color:"black"}}>{text}</p>
             </div>
         </div>
     )
