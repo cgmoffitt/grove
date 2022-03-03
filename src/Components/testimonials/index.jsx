@@ -22,18 +22,18 @@ export default function Index() {
     };
     return (
         <section className="deneb_testimonial testimonial_v1">
-         <div style={{backgroundColor:"white", paddingTop: '5%', paddingBottom:'1%'}}>
-            <div className="shape_v5">
-                <img src={shape_img_12} style={{zIndex:-1}} className="shape_12" alt="shape" />
-                <img src={shape_img_13} style={{zIndex:-1}}  className="shape_13" alt="shape" />
-            </div>
-           
-            <div className="container">
-                <SectionTitle
-                    title="Team"
-                    description=""
-                />
-                {/* <div className="row1">
+            <div style={{ backgroundColor: "white", paddingTop: '5%', paddingBottom: '1%', }}>
+                <div className="shape_v5">
+                    <img src={shape_img_12} style={{ zIndex: -1 }} className="shape_12" alt="shape" />
+                    <img src={shape_img_13} style={{ zIndex: -1 }} className="shape_13" alt="shape" />
+                </div>
+
+                <div className="container">
+                    <SectionTitle
+                        title="Team"
+                        description=""
+                    />
+                    {/* <div className="row1">
                     <div className="single_img">
                         <img src={people_img_01} className="img-fluid" alt="people" />
                     </div>
@@ -44,7 +44,7 @@ export default function Index() {
                         <img src={people_img_03} className="img-fluid" alt="prople" />
                     </div>
                 </div> */}
-                {/* <div className="row2">
+                    {/* <div className="row2">
                     <div className="single_img">
                         <img src={people_img_04} className="img-fluid" alt="prople" />
                     </div>
@@ -59,42 +59,42 @@ export default function Index() {
                     </div>
                 </div> */}
 
-                <div className="testimonial_slide">
-                    <div className="row1">
-                    <TestimonialItem
-                            img={chris_photo}
-                            name="Chris M"
-                            designation="Developer"
-                            text=""
+                    <div className="testimonial_slide">
+                        <div className="row1" style={{flexWrap: "wrap"}}>
+                            <TestimonialItem
+                                img={chris_photo}
+                                name="Chris M"
+                                designation="Developer"
+                                text=""
 
-                        />
-                    <TestimonialItem
-                            img={tiff_photo}
-                            name="Tiffany L"
-                            designation="Designer"
-                            text=""
+                            />
+                            <TestimonialItem
+                                img={tiff_photo}
+                                name="Tiffany L"
+                                designation="Designer"
+                                text=""
 
-                        />
-                    <TestimonialItem
-                            img={amelia_photo}
-                            name="Amelia W"
-                            designation="Developer"
-                            text=""
+                            />
+                            <TestimonialItem
+                                img={amelia_photo}
+                                name="Amelia W"
+                                designation="Developer"
+                                text=""
 
-                        />
-                    <TestimonialItem
-                            img={jasmine_photo}
-                            name="Jasmine R"
-                            designation="Designer"
-                            text=""
-                        />
+                            />
+                            <TestimonialItem
+                                img={jasmine_photo}
+                                name="Jasmine R"
+                                designation="Designer"
+                                text=""
+                            />
+                        </div>
                     </div>
-                    </div>   
                 </div>
             </div>
             <br></br>
             <br></br>
-            <h4 style={{textAlign:"center"}}>Part of CS147 Winter 2022</h4>
+            <h4 style={{ textAlign: "center" }}>Part of CS147 Winter 2022</h4>
         </section>
 
     )
