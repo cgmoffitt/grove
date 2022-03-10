@@ -40,10 +40,10 @@ export default function PortfolioItem(props) {
                     <p style={{color:"black", fontSize: 14}}>{tag}</p>
                     <div className='d-flex '>
                         {ppt && <a href={ppt} target='_blank' download>PPT</a>}
+                        {demoVideo && <a href={demoVideo} target='_blank' download>, Video Demo</a>}
                         {writtenReport && <a href={writtenReport} target='_blank' rel='noopener noreferrer'>, Written Report</a>}
                         {prototype && <a href={prototype} target='_blank' rel='noopener noreferrer'>,  Prototype</a>}
                         {writtenFeedback && <a href={writtenFeedback} target='_blank' rel='noopener noreferrer'>Written Feedback</a>}
-                        {demoVideo && <a href="https://drive.google.com/file/d/1uIUO01zckcTfV28zAtdCrJPPCjghRhHI/view?usp=sharing" target='_blank' style={{width: 250}} rel='noopener noreferrer'>Video Demo</a>}
                     </div>
                 </div>
             </div>
