@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import siteLogo from "../images/grove/grove_updated2.png";
 
 export default function SliderItem(props) {
-    const { title, sub_title, heading, description, img, url } = props;
+    const { title, sub_title, heading, description, img, url, url2 } = props;
     return (
         <div className="signle_slider">
             <div className="row align-items-center">
@@ -13,9 +13,10 @@ export default function SliderItem(props) {
                             <img src={siteLogo} style={{ width: '275px', height: '275px', position: "absolute", left:"-70px" }} className="img-fluid" alt="logo" />
                             <h1 style={{ zIndex: 5, fontSize: 70, position: "absolute", left: "170px" }}>{title} <br /><span>{sub_title}</span></h1>
                         </div>
-                        <h5 style={{ color: "black", fontSize: 35 }}>{heading}</h5>
-                        <p style={{ color: "black", fontSize: 20 }}>{description}</p>
-                        <a href={url} target='_blank' rel='noopener noreferrer' className="deneb_btn">See Demo</a>
+                        <h5 style={{ color: "black", fontSize: 25 }}>{heading}</h5>
+                        <p style={{ color: "black", fontSize: 18 }}>{description}</p>
+                        <a href={url} style={{width: 200, marginRight:'5%'}} target='_blank' rel='noopener noreferrer' className="deneb_btn">See Medium-Fi Demo</a>
+                        <a href={url2} style={{width: 200}} target='_blank' rel='noopener noreferrer' className="deneb_btn">See High-Fi Demo</a>
                     </div>
                 </div>
                 <div className="col-lg-7">

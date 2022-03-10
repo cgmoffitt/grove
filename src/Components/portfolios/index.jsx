@@ -28,6 +28,8 @@ import ConceptVideoPPT from "../../assets/Assignment 4_ Concept Video Presentati
 import LoFiPPT from "../../assets/Assignment 5_ Low-fi Prototyping & Testing.pptx"
 import MediumFiPPT from "../../assets/Assignment 6_ Medium-fi Prototype.pptx"
 import HeuristicEval from "../../assets/Heuristic_Eval.pdf"
+import PitchSlidePPT from "../../assets/grove_pitch_slide.pptx"
+import GrovePoster from "../../assets/grove_poster.pdf"
 
 import PortfolioItem from "../../SingleFeatures/portfolio_item";
 import SectionTitle from "../section_title";
@@ -139,6 +141,7 @@ export default function Index() {
                                             img={grove7}
                                             title="Hi-fi Prototype"
                                             tag="Developing a working frontend"
+                                            demoVideo={PitchSlidePPT}
                                         />
                                     </div>
                                     <div className="col-lg-4 col-md-6">
@@ -146,6 +149,10 @@ export default function Index() {
                                             img={grove8}
                                             title="Poster and Pitch"
                                             tag="Showing off our creation"
+                                            ppt={PitchSlidePPT}
+                                            pdf={GrovePoster}
+                                            
+                                            
                                         />
                                     </div>
                                     

@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function PortfolioItem(props) {
-    const { img, title, url, tag, pdf, ppt, writtenReport, prototype, writtenFeedback } = props;
+    const { img, title, url, tag, pdf, ppt, writtenReport, prototype, writtenFeedback, demoVideo } = props;
     return (
         <div className="single_project cat1 cat5">
             <div className="grid_item" style={{margin:'8%', backgroundColor: "white",  borderStyle:"solid", borderColor:"#00463C", height: 380, width:300}}>
@@ -43,6 +43,7 @@ export default function PortfolioItem(props) {
                         {writtenReport && <a href={writtenReport} target='_blank' rel='noopener noreferrer'>, Written Report</a>}
                         {prototype && <a href={prototype} target='_blank' rel='noopener noreferrer'>,  Prototype</a>}
                         {writtenFeedback && <a href={writtenFeedback} target='_blank' rel='noopener noreferrer'>Written Feedback</a>}
+                        {demoVideo && <a href="https://drive.google.com/file/d/1uIUO01zckcTfV28zAtdCrJPPCjghRhHI/view?usp=sharing" target='_blank' style={{width: 250}} rel='noopener noreferrer'>Video Demo</a>}
                     </div>
                 </div>
             </div>

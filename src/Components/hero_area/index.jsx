@@ -35,6 +35,7 @@ export default function Index() {
                             heading="Cultivate your post-grad community"
                             description=""
                             url={"https://www.figma.com/proto/hj37Hp9a3N7DWExdNbAEIv/Grove-Me dium-Fi-Prototype?node-id=173%3A347&scaling=scale-down&page-id =0%3A3&starting-point-node-id=173%3A347"}
+                            url2={""}
                             img={mockup}
                         />
                    {/* <Slider {...settings}> 
