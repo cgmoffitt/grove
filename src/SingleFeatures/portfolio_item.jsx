@@ -43,7 +43,7 @@ export default function PortfolioItem(props) {
                         {writtenReport && <a href={writtenReport} target='_blank' rel='noopener noreferrer'>, Written Report</a>}
                         {prototype && <a href={prototype} target='_blank' rel='noopener noreferrer'>,  Prototype</a>}
                         {writtenFeedback && <a href={writtenFeedback} target='_blank' rel='noopener noreferrer'>Written Feedback</a>}
-                        {demoVideo && <a href="https://drive.google.com/file/d/1uIUO01zckcTfV28zAtdCrJPPCjghRhHI/view?usp=sharing" target='_blank' style={{width: 250}} rel='noopener noreferrer'>Video Demo</a>}
+                        {demoVideo && <a href="https://www.youtube.com/watch?v=DwuPyWkyOfg" target='_blank' style={{width: 250}} rel='noopener noreferrer'>Video Demo</a>}
                     </div>
                 </div>
             </div>

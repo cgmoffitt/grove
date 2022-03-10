@@ -47,7 +47,7 @@ export default function Index() {
                             <p style={{color:"black"}}></p>
                             {/* <p>Suspendisse potenti. Aliquam elementum felis purus, quis vulputate libero semper nec. Morbi tincidunt maximus nisl vel placerat. Curabitur at ligula ac diam elementum hendrerit. Suspendisse nec metus eu est laoreet hendrerit vitae non ipsum. Nam faucibus elementum arcu, eget eleifend tortor.</p> */}
                             
-                            <a href="https://drive.google.com/file/d/1uIUO01zckcTfV28zAtdCrJPPCjghRhHI/view?usp=sharing" target='_blank' style={{width: 250, marginRight: 20}} rel='noopener noreferrer' className="deneb_btn">Download Demo</a>
+                            <a href="https://drive.google.com/file/d/1A0PNTxdRQj4HnG9jCjtwFlahgcjMlP_Y/view?usp=sharing" target='_blank' style={{width: 250, marginRight: 20}} rel='noopener noreferrer' className="deneb_btn">Download Demo</a>
                             <a href="" target='_blank' style={{width: 250}} rel='noopener noreferrer' className="deneb_btn">Download README</a>
                         </div>
                         <br/>
@@ -57,9 +57,9 @@ export default function Index() {
                         {/* <div className="deneb_img_box wow fadeInLeft">
                             <img src={aboutImg} className="img-fluid" alt="about"/>
 						</div> */}
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZOBhvWX5nd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
-                    </div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DwuPyWkyOfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
                     
+                    </div>
                     </div>
 		</section>
     )
