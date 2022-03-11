@@ -20,7 +20,7 @@ export default function Index() {
                         {/* <div className="deneb_img_box wow fadeInLeft">
                             <img src={aboutImg} className="img-fluid" alt="about"/>
 						</div> */}
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/crWdyARTgmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe style={{justifyContent:"center", marginVertical: 10}} width="100%" height="315" src="https://www.youtube.com/embed/crWdyARTgmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div className="col-lg-6">
                         <div className="deneb_content_box wow fadeInRight">
@@ -57,9 +57,9 @@ export default function Index() {
                         {/* <div className="deneb_img_box wow fadeInLeft">
                             <img src={aboutImg} className="img-fluid" alt="about"/>
 						</div> */}
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/HOUie6DZkFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
+                        <iframe style={{justifyContent:"center", marginVertical: 10}} width="100%" height="315" src="https://www.youtube.com/embed/DwuPyWkyOfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             
                     </div>
-                    
+                    </div>
                     </div>
 		</section>
     )
