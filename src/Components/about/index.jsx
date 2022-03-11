@@ -59,7 +59,6 @@ export default function Index() {
                             <img src={aboutImg} className="img-fluid" alt="about"/>
 						</div> */}
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/DwuPyWkyOfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
-                    
                     </div>
                     </div>
 		</section>
