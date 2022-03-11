@@ -21,6 +21,7 @@ import LoFiPDF from "../../assets/Assignment 5_ Low-fi Prototyping.pdf"
 import LoFiReportPDF from "../../assets/Low-Fi Prototyping Report.pdf"
 import MediumFiSlidesPDF from "../../assets/Assignment 6_ Medium-fi Prototype.pdf"
 import MediumFiReadMe from "../../assets/Grove_ Medium-fi Prototype README.pdf"
+import HighFiPDF from "../../assets/Midway Milestone Presentation.pdf"
 
 import NeedfindingPPT from "../../assets/Assignment 1_ Needfinding Presentation.pptx"
 import IdeatePPT from "../../assets/Assignment 2_ Ideate Presentation.pptx"
@@ -30,6 +31,8 @@ import MediumFiPPT from "../../assets/Assignment 6_ Medium-fi Prototype.pptx"
 import HeuristicEval from "../../assets/Heuristic_Eval.pdf"
 import PitchSlidePPT from "../../assets/grove_pitch_slide.pptx"
 import GrovePoster from "../../assets/grove_poster.pdf"
+import HighFiPPT from "../../assets/Midway Milestone Presentation.pptx"
+import HighFiDemoVideo from "../../assets/grove-demo.mp4"
 
 import PortfolioItem from "../../SingleFeatures/portfolio_item";
 import SectionTitle from "../section_title";
@@ -141,7 +144,9 @@ export default function Index() {
                                             img={grove7}
                                             title="Hi-fi Prototype"
                                             tag="Developing a working frontend"
-                                            demoVideo={PitchSlidePPT}
+                                            demoVideo={HighFiDemoVideo}
+                                            pdf={HighFiPDF}
+                                            ppt={HighFiPPT}
                                         />
                                     </div>
                                     <div className="col-lg-4 col-md-6">
