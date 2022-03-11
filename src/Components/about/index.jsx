@@ -3,6 +3,7 @@ import aboutImg from "../../images/about.png";
 import { Link } from "react-router-dom";
 import "./about.scss";
 import prototype from "../../images/grove/prototype_example.png"
+import HighFiVideo from "../../assets/grove-demo.mp4"
 
 export default function Index() {
     const scrollToTop = (e) => {
@@ -46,8 +47,7 @@ export default function Index() {
                             <h2>Prototype Demo</h2>
                             <p style={{color:"black"}}></p>
                             {/* <p>Suspendisse potenti. Aliquam elementum felis purus, quis vulputate libero semper nec. Morbi tincidunt maximus nisl vel placerat. Curabitur at ligula ac diam elementum hendrerit. Suspendisse nec metus eu est laoreet hendrerit vitae non ipsum. Nam faucibus elementum arcu, eget eleifend tortor.</p> */}
-                            
-                            <a href="https://drive.google.com/file/d/1uIUO01zckcTfV28zAtdCrJPPCjghRhHI/view?usp=sharing" target='_blank' style={{width: 250, marginRight: 20}} rel='noopener noreferrer' className="deneb_btn">Download Demo</a>
+                            <a href={HighFiVideo} target='_blank' download style={{width: 250, marginRight: 20}} className="deneb_btn">Download Demo</a>
                             <a href="" target='_blank' style={{width: 250}} rel='noopener noreferrer' className="deneb_btn">Download README</a>
                         </div>
                         <br/>
@@ -57,7 +57,7 @@ export default function Index() {
                         {/* <div className="deneb_img_box wow fadeInLeft">
                             <img src={aboutImg} className="img-fluid" alt="about"/>
 						</div> */}
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZOBhvWX5nd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/HOUie6DZkFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    </div>
                     </div>
                     
                     </div>
