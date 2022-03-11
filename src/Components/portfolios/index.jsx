@@ -32,7 +32,7 @@ import HeuristicEval from "../../assets/Heuristic_Eval.pdf"
 import PitchSlidePPT from "../../assets/grove_pitch_slide.pptx"
 import GrovePoster from "../../assets/grove_poster.pdf"
 import HighFiPPT from "../../assets/Midway Milestone Presentation.pptx"
-import HighFiDemoVideo from "../../assets/grove-demo.mp4"
+import HighFiDemoVideo from "../../assets/grove_demo_FINAL.mp4"
 
 import PortfolioItem from "../../SingleFeatures/portfolio_item";
 import SectionTitle from "../section_title";
