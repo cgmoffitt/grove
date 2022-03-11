@@ -33,6 +33,7 @@ import PitchSlidePPT from "../../assets/grove_pitch_slide.pptx"
 import GrovePoster from "../../assets/grove_poster.pdf"
 import HighFiPPT from "../../assets/Midway Milestone Presentation.pptx"
 import HighFiDemoVideo from "../../assets/grove-demo.mp4"
+import README from "../../assets/grove_README.pdf"
 
 import PortfolioItem from "../../SingleFeatures/portfolio_item";
 import SectionTitle from "../section_title";
@@ -147,6 +148,7 @@ export default function Index() {
                                             demoVideo={HighFiDemoVideo}
                                             pdf={HighFiPDF}
                                             ppt={HighFiPPT}
+                                            README={README}
                                         />
                                     </div>
                                     <div className="col-lg-4 col-md-6">
@@ -156,6 +158,7 @@ export default function Index() {
                                             tag="Showing off our creation"
                                             ppt={PitchSlidePPT}
                                             pdf={GrovePoster}
+                                            
                                             
                                             
                                         />
