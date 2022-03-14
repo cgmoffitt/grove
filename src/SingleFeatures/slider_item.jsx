@@ -15,8 +15,8 @@ export default function SliderItem(props) {
                         </div>
                         <h5 style={{ color: "black", fontSize: 25 }}>{heading}</h5>
                         <p style={{ color: "black", fontSize: 18 }}>{description}</p>
-                        <a href={url} style={{width: 200, margin:10}} target='_blank' rel='noopener noreferrer' className="deneb_btn">See Medium-Fi Demo</a>
-                        <a href={url2} style={{width: 200, margin: 10}} target='_blank' rel='noopener noreferrer' className="deneb_btn">See High-Fi Demo</a>
+                        <a href={url} style={{width: 200, margin:10}} target='_blank' rel='noopener noreferrer' className="deneb_btn">See Medium-Fi</a>
+                        <a href={"https://www.youtube.com/watch?v=DwuPyWkyOfg"} style={{width: 200, margin: 10}} target='_blank' rel='noopener noreferrer' className="deneb_btn">See High-Fi</a>
                     </div>
                 </div>
                 <div className="col-lg-7">

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "./about.scss";
 import prototype from "../../images/grove/prototype_example.png"
 import HighFiVideo from "../../assets/grove-demo.mp4"
+import HighFiReadMEe from "../../assets/grove_README.pdf"
 
 export default function Index() {
     const scrollToTop = (e) => {
@@ -48,7 +49,7 @@ export default function Index() {
                             <p style={{color:"black"}}></p>
                             {/* <p>Suspendisse potenti. Aliquam elementum felis purus, quis vulputate libero semper nec. Morbi tincidunt maximus nisl vel placerat. Curabitur at ligula ac diam elementum hendrerit. Suspendisse nec metus eu est laoreet hendrerit vitae non ipsum. Nam faucibus elementum arcu, eget eleifend tortor.</p> */}
                             <a href={HighFiVideo} target='_blank' download style={{width: 250, marginRight: 20}} className="deneb_btn">Download Demo</a>
-                            <a href="" target='_blank' style={{width: 250}} rel='noopener noreferrer' className="deneb_btn">Download README</a>
+                            <a href={HighFiReadMEe} target='_blank' download style={{width: 250}} className="deneb_btn">Download README</a>
                         </div>
                         <br/>
                     

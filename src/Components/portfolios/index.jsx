@@ -34,6 +34,7 @@ import GrovePoster from "../../assets/grove_poster.pdf"
 import HighFiPPT from "../../assets/Midway Milestone Presentation.pptx"
 import HighFiDemoVideo from "../../assets/grove-demo.mp4"
 import README from "../../assets/grove_README.pdf"
+import FinalReport from "../../assets/Grove_Final_Report.pdf"
 
 import PortfolioItem from "../../SingleFeatures/portfolio_item";
 import SectionTitle from "../section_title";
@@ -158,9 +159,7 @@ export default function Index() {
                                             tag="Showing off our creation"
                                             ppt={PitchSlidePPT}
                                             pdf={GrovePoster}
-                                            
-                                            
-                                            
+                                            finalReport={FinalReport}
                                         />
                                     </div>
                                     
